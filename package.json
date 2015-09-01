@@ -1,0 +1,31 @@
+{
+  "name": "generator-grunt-sass",
+  "version": "0.0.0",
+  "description": "Yeoman generator with a simple Grunt config for SASS",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "taxigy/generator-grunt-sass",
+  "author": {
+    "name": "Rishat Muhametshin",
+    "email": "rishatmuhametshin@gmail.com",
+    "url": "https://github.com/taxigy"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "yeoman-generator": "^0.19.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
+
