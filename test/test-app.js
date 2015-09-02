@@ -18,7 +18,8 @@ describe('grunt-sass:app', function () {
       'bower.json',
       'package.json',
       '.editorconfig',
-      '.jshintrc'
+      '.jshintrc',
+      'Gruntfile.js'
     ]);
   });
 });
